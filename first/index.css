@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+header {
+   background-color: gray;
+    margin: 0;
+    width: 100vw;
+    height: 15vh;
+}
+
+.left {
+    background-color: lightgrey;
+    width: 15vw;
+    height: calc(100vh - 15vh);
+    margin: 0;
+    float: left;
+}
+
+.right {
+    background-color: lightgrey;
+    width: 15vw;
+    height: calc(100vh - 15vh); 
+    float: right;
+}
+
+footer {
+background-color: black;
+height: 15vw;
+width: 100vw;
+margin-top: calc(100vh - 32vh);
+}
